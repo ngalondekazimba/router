@@ -11,6 +11,17 @@ function App() {
 
   return (
 <BrowserRouter>
+
+<header>
+<nav>
+   <h1>jobarouter</h1>
+   <Link to = "/">Home</Link>
+   <NavLink to = "about">about</NavLink>
+
+</nav>
+
+</header>
+
    <main>
     <Routes>
       <Route path ="/" element = {<Home/>} />
